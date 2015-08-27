@@ -24,7 +24,7 @@
   </parent>
 
   <artifactId>mybatis-spring</artifactId>
-  <version>1.2.3</version>
+  <version>1.2.3-1</version>
   <packaging>jar</packaging>
 
   <name>mybatis-spring</name>
@@ -101,7 +101,7 @@
     <gcu.product>Spring</gcu.product>
     <osgi.import>org.springframework.batch.*;resolution:=optional,*</osgi.import>
     <osgi.dynamicImport>*</osgi.dynamicImport>
-    <spring.version>3.2.13.RELEASE</spring.version>
+    <spring.version>4.1.7.RELEASE</spring.version>
   </properties>
 
   <dependencies>
