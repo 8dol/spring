@@ -426,7 +426,7 @@ public class SqlSessionFactoryBean implements FactoryBean<SqlSessionFactory>, In
       }
     }
 
-    configOtherTypeHandler(configuration);
+    configBeforeXmlBuilderParse(configuration);
 
     if (xmlConfigBuilder != null) {
       try {
@@ -485,7 +485,7 @@ public class SqlSessionFactoryBean implements FactoryBean<SqlSessionFactory>, In
     return this.sqlSessionFactoryBuilder.build(configuration);
   }
 
-  protected void configOtherTypeHandler(Configuration configuration) {
+  protected void configBeforeXmlBuilderParse(Configuration configuration) {
 
   }
 
